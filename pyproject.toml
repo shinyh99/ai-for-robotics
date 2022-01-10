@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ai-for-robotics"
+version = "0.1.0"
+description = "Robotics class from udacity"
+authors = ["Young Hwan Shin"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.22.0"
+matplotlib = "^3.5.1"
+multipledispatch = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
